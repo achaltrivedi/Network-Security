@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Network%20Secuity%20System-MLOps/mlruns/0/models/m-5276ddf2d8454530a32f4bf2c97f0646/artifacts
+creation_timestamp: 1750935375513
+experiment_id: '0'
+last_updated_timestamp: 1750935378227
+model_id: m-5276ddf2d8454530a32f4bf2c97f0646
+model_type: null
+name: model
+source_run_id: 6d60aa6c8f414f97a9b471ec7aad606d
+status: 2
+status_message: null

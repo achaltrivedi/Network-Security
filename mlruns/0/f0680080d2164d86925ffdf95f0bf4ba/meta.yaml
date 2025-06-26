@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Network%20Secuity%20System-MLOps/mlruns/0/f0680080d2164d86925ffdf95f0bf4ba/artifacts
+end_time: 1750935375378
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f0680080d2164d86925ffdf95f0bf4ba
+run_name: auspicious-hog-722
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750935369872
+status: 3
+tags: []
+user_id: achal

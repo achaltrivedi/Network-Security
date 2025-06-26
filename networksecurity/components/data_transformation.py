@@ -46,7 +46,7 @@ class DataTransformation:
           A Pipeline object
         """
         logging.info(
-            "Entered get_data_trnasformer_object method of Trnasformation class"
+            "Entered get_data_transformer_object method of Transformation class"
         )
         try:
            imputer:KNNImputer=KNNImputer(**DATA_TRANSFORMATION_IMPUTER_PARAMS)
@@ -82,7 +82,7 @@ class DataTransformation:
             transformed_input_train_feature=preprocessor_object.transform(input_feature_train_df)
             transformed_input_test_feature =preprocessor_object.transform(input_feature_test_df)
              
-
+            ## Concatenating the transformed input features with the target feature
             train_arr = np.c_[transformed_input_train_feature, np.array(target_feature_train_df) ]
             test_arr = np.c_[ transformed_input_test_feature, np.array(target_feature_test_df) ]
 
