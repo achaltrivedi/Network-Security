@@ -1,0 +1,34 @@
+[2025-06-27 12:04:49,461]1025 httpx-INFO-HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-06-27 12:04:49,468]107 dagshub-INFO-Accessing as achaltrivedi1325
+[2025-06-27 12:04:50,028]1025 httpx-INFO-HTTP Request: GET https://dagshub.com/api/v1/repos/achaltrivedi1325/Network-Security "HTTP/1.1 200 OK"
+[2025-06-27 12:04:50,571]1025 httpx-INFO-HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-06-27 12:04:50,575]107 dagshub-INFO-Initialized MLflow to track repo "achaltrivedi1325/Network-Security"
+[2025-06-27 12:04:50,575]107 dagshub-INFO-Repository achaltrivedi1325/Network-Security initialized!
+[2025-06-27 12:04:50,586]17 root-INFO-Initiating data ingestion component
+[2025-06-27 12:04:52,341]64 root-INFO-Performed train test split on the dataframe
+[2025-06-27 12:04:52,341]66 root-INFO-Exited split_data_as_train_test method of Data_Ingestion class
+[2025-06-27 12:04:52,342]74 root-INFO-Exporting train and test file path.
+[2025-06-27 12:04:52,383]83 root-INFO-Exported train and test file path.
+[2025-06-27 12:04:52,384]19 root-INFO-Data Ingestion completed successfully
+[2025-06-27 12:04:52,388]22 root-INFO-Initiating data validation component
+[2025-06-27 12:04:52,469]32 root-INFO-Required number of columns:2
+[2025-06-27 12:04:52,469]33 root-INFO-Data frame has columns:31
+[2025-06-27 12:04:52,469]32 root-INFO-Required number of columns:2
+[2025-06-27 12:04:52,469]33 root-INFO-Data frame has columns:31
+[2025-06-27 12:04:52,565]24 root-INFO-Data Validation completed successfully
+[2025-06-27 12:04:52,565]27 root-INFO-Data Transformation Started
+[2025-06-27 12:04:52,565]63 root-INFO-Entered initiate_data_transformation method of DataTransformation class
+[2025-06-27 12:04:52,565]65 root-INFO-Starting data transformation
+[2025-06-27 12:04:52,583]48 root-INFO-Entered get_data_transformer_object method of Transformation class
+[2025-06-27 12:04:52,583]53 root-INFO-Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-06-27 12:04:52,604]46 root-INFO-Entered the save_object method of MainUtils class
+[2025-06-27 12:04:52,606]50 root-INFO-Exited the save_object method of MainUtils class
+[2025-06-27 12:04:52,606]46 root-INFO-Entered the save_object method of MainUtils class
+[2025-06-27 12:04:52,608]50 root-INFO-Exited the save_object method of MainUtils class
+[2025-06-27 12:04:52,609]31 root-INFO-Data Transformation Completed
+[2025-06-27 12:04:52,610]33 root-INFO-Model Training Started
+[2025-06-27 12:05:54,326]46 root-INFO-Entered the save_object method of MainUtils class
+[2025-06-27 12:05:54,326]50 root-INFO-Exited the save_object method of MainUtils class
+[2025-06-27 12:05:54,326]46 root-INFO-Entered the save_object method of MainUtils class
+[2025-06-27 12:05:54,335]50 root-INFO-Exited the save_object method of MainUtils class
+[2025-06-27 12:05:54,335]119 root-INFO-Model trainer artifact created: ModelTrainerArtifact(trained_model_file_path='Artifacts\\06_27_2025_12_04_46\\model_trainer\\trained_model\\model.pkl', trained_metric_artifact=ClassificationMetricArtifact(f1_score=0.9904761904761905, precision_score=0.9880735799474429, recall_score=0.99289051391428), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9785338193600648, precision_score=0.9781376518218623, recall_score=0.9789303079416531))
