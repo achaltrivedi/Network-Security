@@ -1,5 +1,7 @@
 
-from pymongo.mongo_client import MongoClient
+import pymongo
+from pymongo import MongoClient
+
 
 uri = "mongodb+srv://achaltrivedi1325:Achal123@cluster0.5kwfaq2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
